@@ -1,0 +1,296 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="CSS\style.css">
+  <style></style>
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="/index.html">
+      <h1>Mind<span>X</span> Store</h1>
+    </a>
+    <div class="icons">
+      <a href="cart.html">
+        <i class="fa-solid fa-right-to-bracket"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <div id="products">
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\1.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h5>
+            <h6>Price: $109.95</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(1)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\2.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>Mens Casual Premium Slim Fit T-Shirts </h5>
+            <h6>Price: $22.3</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(2)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\3.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>Mens Cotton Jacket</h5>
+            <h6>Price: $55.99</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(3)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\4.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>Mens Casual Slim Fit</h5>
+            <h6>Price: $15.99</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(4)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\5.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>John Hardy Women's Legends Naga Gold &amp; Silver Dragon Station Chain Bracelet</h5>
+            <h6>Price: $695</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(5)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\6.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>Solid Gold Petite Micropave </h5>
+            <h6>Price: $168</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(6)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\7.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>White Gold Plated Princess</h5>
+            <h6>Price: $9.99</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(7)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\8.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>Pierced Owl Rose Gold Plated Stainless Steel Double</h5>
+            <h6>Price: $10.99</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(8)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\9.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>WD 2TB Elements Portable External Hard Drive - USB 3.0 </h5>
+            <h6>Price: $64</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(9)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\10.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s</h5>
+            <h6>Price: $109</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(10)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\11.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5</h5>
+            <h6>Price: $109</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(11)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\12.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive</h5>
+            <h6>Price: $114</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(12)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\13.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin</h5>
+            <h6>Price: $599</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(13)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\14.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED </h5>
+            <h6>Price: $999.99</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(14)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\15.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats</h5>
+            <h6>Price: $56.99</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(15)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\16.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket</h5>
+            <h6>Price: $29.95</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(16)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\17.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>Rain Jacket Women Windbreaker Striped Climbing Raincoats</h5>
+            <h6>Price: $39.99</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(17)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\18.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>MBJ Women's Solid Short Sleeve Boat Neck V </h5>
+            <h6>Price: $9.85</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(18)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\19.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>Opna Women's Short Sleeve Moisture</h5>
+            <h6>Price: $7.95</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(19)">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="Image\20.jpg">
+        </div>
+        <div class="container">
+          <div class="info">
+            <h5>DANVOUY Womens T Shirt Casual Cotton Short</h5>
+            <h6>Price: $12.99</h6>
+          </div>
+          <button onclick="handleAddToCartClicked(20)">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="JS\navbar.js"></script>
+  <script src="JS\data.js"></script>
+  <script src="JS\cart-mutate.js"></script>
+  <script src="JS\app.js"></script>
+
+
+</body>
+
+</html>
